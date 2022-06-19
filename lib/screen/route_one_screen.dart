@@ -21,7 +21,8 @@ class RouteOneScreen extends StatelessWidget {
           onPressed: () {
             Navigator.of(context).pop(456);
           },
-          child: Text("Pop")),
+          child: Text("Pop")
+      ),
       ElevatedButton(
           onPressed: () {
             // 페이지는 스택 구조로 쌓인다.
